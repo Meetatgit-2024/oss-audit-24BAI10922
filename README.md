@@ -1,90 +1,106 @@
-# oss-audit-24BAI10922
-# Open Source Audit — Python
-
-## Student Details
-
-* **Name:** Meet Chaure
-* **Registration Number:** 24BAI10922
-* **Course:** Open Source Software
+# Open Source Software Audit – Capstone Project
 
 ---
 
-## Chosen Software
+##  Student Details
 
-**Python**
-
-Python is an open-source programming language known for its simplicity, readability, and versatility. It is widely used in web development, data science, artificial intelligence, and automation.
-
----
-
-## Scripts Overview
-
-### 1. System Identity Report
-
-* Displays system details such as kernel version, user, uptime, and OS.
-* Demonstrates use of variables and command substitution.
-
-### 2. FOSS Package Inspector
-
-* Checks whether Python is installed on the system.
-* Uses conditional statements and case structure.
-
-### 3. Disk and Permission Auditor
-
-* Audits important system directories.
-* Displays permissions and disk usage.
-
-### 4. Log File Analyzer
-
-* Analyzes log files and counts keyword occurrences.
-* Uses loops and conditional statements.
-
-### 5. Open Source Manifesto Generator
-
-* Generates a personalized manifesto based on user input.
-* Demonstrates file handling and user interaction.
+| Field                   | Value                       |
+| ----------------------- | --------------------------- |
+| **Name**                | Meet Chaure                 |
+| **Registration Number** | 24BAI10922                  |
+| **Course**              | Open Source Software (NGMC) |
+| **Date**                | March 2026                  |
 
 ---
 
-## How to Run the Scripts
+##  Chosen Software
 
-### Step 1: Clone Repository
+**Python – Open source, high-level programming language**
+
+Python is widely used for web development, data science, automation, and artificial intelligence. It is known for its simplicity, readability, and strong community support.
+
+---
+
+##  Scripts Overview
+
+| File                           | Purpose                                                           |
+| ------------------------------ | ----------------------------------------------------------------- |
+| `script1_system_identity.sh`   | System Identity Report (displays OS, user, kernel, uptime)        |
+| `script2_package_inspector.sh` | FOSS Package Inspector (checks if Python is installed)            |
+| `script3_disk_auditor.sh`      | Disk and Permission Auditor (analyzes directories)                |
+| `script4_log_analyzer.sh`      | Log File Analyzer (counts keyword occurrences in logs)            |
+| `script5_manifesto.sh`         | Open Source Manifesto Generator (creates a custom manifesto file) |
+
+---
+
+## ⚙️ How to Run
+
+###  Step 1: Make Scripts Executable
 
 ```bash
-git clone https://github.com/<your-username>/oss-audit-24BAI10922.git
-cd oss-audit-24BAI10922
+chmod +x script1_system_identity.sh script2_package_inspector.sh script3_disk_auditor.sh script4_log_analyzer.sh script5_manifesto.sh
 ```
 
-### Step 2: Give Permission
+---
 
-```bash
-chmod +x *.sh
-```
+###  Step 2: Run Scripts
 
-### Step 3: Run Scripts
+#### ▶ System Identity Report
 
 ```bash
 ./script1_system_identity.sh
+```
+
+#### ▶ Package Inspector
+
+```bash
 ./script2_package_inspector.sh
+```
+
+#### ▶ Disk and Permission Auditor
+
+```bash
 ./script3_disk_auditor.sh
+```
+
+#### ▶ Log Analyzer (example)
+
+```bash
 ./script4_log_analyzer.sh /var/log/syslog error
+```
+
+#### ▶ Manifesto Generator
+
+```bash
 ./script5_manifesto.sh
 ```
 
 ---
 
-## Dependencies
+##  Features
 
-* Linux OS (Ubuntu recommended)
-* Bash shell
-* Python3 (for script 2 validation)
+* Demonstrates core Linux shell scripting concepts:
+
+  * Variables and command substitution
+  * Conditional statements (`if-else`)
+  * Loops (`for`, `while`)
+  * Case statements
+  * File handling and user input
+
+* Real-world applications:
+
+  * System monitoring
+  * Package inspection
+  * Log analysis
+  * Automation
 
 ---
 
-## Notes
+##  Requirements
 
-* Scripts are tested on Ubuntu Linux.
-* Ensure correct permissions before running scripts.
+* Linux-based operating system (Ubuntu recommended)
+* Bash shell
+* Python3 installed (for validation in Script 2)
 
 ---
 
